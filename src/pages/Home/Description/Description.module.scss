@@ -1,0 +1,13 @@
+.div {
+    background-image: url('../../../assets/desc/bg.jpg') ;
+    background-repeat: repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

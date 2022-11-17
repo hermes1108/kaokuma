@@ -1,0 +1,24 @@
+.div {
+    max-width: 435px;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    color: rgb(139, 232, 220);
+    font-size: 26px;
+    margin: 17px 0 12px;
+    font-weight: bold;
+}
+
+.text {
+    color: rgb(255, 255, 215);
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    
+    .div {
+        padding: 20px 0;
+    }
+}

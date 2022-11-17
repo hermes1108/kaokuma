@@ -1,0 +1,112 @@
+.div {
+    width:100%;
+    position: relative;
+    background-size: cover;
+    background-image: url('../../../assets/contact/bg.jpg') ;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.title {
+    color: rgb(47, 221, 222);
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 800px;
+}
+
+.join {
+    margin: 85px auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+
+    img {
+        padding-right: 19px;
+    }
+
+    .discord, .telegram {
+        width: 418px;
+        height: 89px;
+        border-radius: 10px;
+        font-size: 36px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .discord {
+        background-color: #02b8b9;
+        margin-right: 72px;
+    }
+
+    .telegram {
+        background-color: #f1720b;
+    }
+}
+
+.subscribe {
+    margin-top: 131px;
+    margin-bottom: 50px;
+
+    .email {
+        width: 858px;
+        margin-right: 21px;
+        height: 96px;
+        padding: 46px;
+        font-size: 43px;
+        border-radius: 10px;
+    }
+
+    .btn {
+        width: 285px;
+        height: 96px;
+        border-radius: 10px;
+        font-size: 38px;
+        background-color: #019888;
+        color: white;
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        padding-top: 915px;
+        font-size: 40px;
+    }
+
+    .join {
+        flex-direction: column;
+    }
+
+    .discord,
+    .telegram,
+    .email,
+    .btn {
+        width: 90% !important;
+        height: 70px !important;
+        margin: 0 auto !important;
+    }
+
+    .discord {
+        margin-right: 0;
+        margin-bottom: 10px !important;
+    }
+
+    .subscribe {
+        margin-top: 30px;
+    }
+
+    .email {
+        padding: 20px !important;
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+}

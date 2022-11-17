@@ -1,0 +1,17 @@
+.div {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-right: 33px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .div {
+        img {
+            margin-right: 15px;
+        }
+    }
+}

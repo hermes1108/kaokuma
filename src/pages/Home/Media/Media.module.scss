@@ -1,0 +1,32 @@
+.div {
+    background-image: url('../../../assets/media/bg.jpg') ;
+    padding: 50px 0 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    color: #ffffd7;
+    padding: 50px 0;
+}
+
+.carousel {
+    width: 80%;
+    height: 470px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    
+    .title {
+        font-size: 45px;
+        padding: 30px 0;
+    }
+
+    .carousel {
+        width: 80%;
+        height: 200px;
+        margin: 0 auto;
+    }
+}
